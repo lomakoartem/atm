@@ -1,0 +1,8 @@
+ua\atm\controller\user\HomeControllerTest.class
+ua\atm\repository\AtmRepositoryTest.class
+ua\atm\service\atm\AtmServiceTest.class
+ua\atm\repository\UserRepositoryTest.class
+ua\atm\controller\user\SecurityNavigationController.class
+ua\atm\controller\atm\AtmControllerTest.class
+ua\atm\infrastructure\PasswordGeneratorAndHashingTest.class
+ua\atm\service\user\UserServiceTest.class

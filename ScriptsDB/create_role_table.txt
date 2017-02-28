@@ -1,0 +1,17 @@
+-- Table: public.role
+
+-- DROP TABLE public.role;
+
+CREATE TABLE public.role
+(
+    id integer NOT NULL DEFAULT nextval('auto_id_user'::regclass),
+    name character varying(45) COLLATE pg_catalog."default" DEFAULT NULL::character varying,
+    CONSTRAINT role_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.role
+    OWNER to postgres;
